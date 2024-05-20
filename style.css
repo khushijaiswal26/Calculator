@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+body{
+    background-color: rgb(239, 210, 176);
+    height: 100vh;
+    display:flex;
+    align-items: center; 
+    justify-content: center;
+}
+.frame{
+    height: 610px;
+    width: 460px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #ce8066,-5px -5px 10px #ffffffa9 ;
+}
+.heading{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    font-weight: 700px;
+}
+#display{
+    height: 80px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: right;
+    box-shadow: inset 2px 2px 10px #ce8066,inset -5px -5px 10px #ffffffa9;
+}
+.buttonsGroup{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+    padding: 1rem;
+}
+.button{
+    height: 90px;
+    width: 70;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    box-shadow:  2px 2px 10px #d8896e,-5px -5px 8px #ffffffa9;
+}
+.button:active{
+    box-shadow: inset 1px 1px 5px #de937a,inset -1px -1px 5px #ffffffa9;
+}
+.button:hover{
+    background-color: #d8896e;
+    color: white;
+    cursor: pointer;
+}
+#equalButton{
+    background-color: rgb(250, 147, 147)
+}
+#opButton{
+    background-color: rgb(188, 241, 241);
+}
+#clearButton{
+    background-color: rgb(250, 147, 147);
+}
+#equalButton:hover{
+    background-color: rgb(242, 73, 73);
+}
+#opButton:hover{
+    background-color: rgb(25, 158, 158);
+}
+#clearButton:hover{
+    background-color: rgb(242, 73, 73);
+}
+    
